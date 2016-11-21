@@ -16,5 +16,8 @@ app.listen('7599', function() {
 });
 
 app.get('/', function(req, res, next) {
-  res.render('index');
+  var message = {text: 'Your stuff is undisturbed!'}
+  res.render('index', {message: message});
 });
+
+app.post('/')
