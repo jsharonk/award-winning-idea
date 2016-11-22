@@ -1,0 +1,19 @@
+{
+  "name": "award-winning-idea",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "accelerometer.js",
+  "dependencies": {
+    "accel-mma84": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/jsharonk/award-winning-idea.git",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script."
+}
